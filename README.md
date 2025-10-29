@@ -1,39 +1,101 @@
-=== Chrome AI Translation For Polylang ===
-Tags: Polylang, AI Translation, Content Translation, Translate
-Requires at least: 5.0
-Tested up to: 6.8.3
-Requires PHP: 5.6
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# 🧠 Chrome AI Translation for Polylang
 
-AI Translation For Polylang simplifies your translation process by automatically translating all pages/posts content from one language to another by using Chrome Translator API (https://developer.chrome.com/docs/ai/translator-api).
+## 🌍 Inspiration
 
-== Description ==
-**Translate Your WordPress Website 10X Faster – Powered by AI, Built for Polylang**.
+Creating multilingual WordPress sites with **Polylang** can take time since it doesn’t automatically translate content.  
+Most translation plugins offer automation, but they’re often **paid**, have **limited editor support**, or require **complex setup**.
 
+When **Chrome** launched its built-in **AI Translator API**, I saw a way to simplify this process.  
+That’s how **Chrome AI Translation for Polylang** was created — a **free addon** that uses Chrome’s **local AI** to instantly translate WordPress pages.
 
-This addon duplicates and translates **page/post titles, content, images, galleries, and meta fields,** eliminating the need to manually adjust featured images, layouts, and other elements.
+---
 
-Whether you're using **Elementor** or **Gutenberg**, this addon makes the translation process easier, allowing you to focus on expanding your global audience effortlessly.
+## ⚙️ What It Does
 
+**Chrome AI Translation for Polylang** is an addon that works with the **Polylang** plugin to make page translation automatic and effortless.
 
-== Key Features ==
+### 🚀 How It Works
 
-* **AI Automatic Translation** - Translate your Elementor & Gutenberg website content using Chrome built-in AI. This feature enables real-time translation directly within the browser, without any paid API services.
-* **Elementor Page Translation** - Translate entire Elementor pages, including all sections, widgets, and content, without losing styles or design.
-* **Gutenberg Block Compatibility** - Automatically translate content within Gutenberg blocks, including core blocks and popular third-party blocks like Spectra, Kadence, Stackable, Otter, and Essential.
-* **Automatic Content Translation** - Effortlessly translate post titles, content, images, galleries, and meta fields from one language to another using Machine & AI Translations.
-* **ACF Fields Translation** - Translate ACF fields only with type(text, textarea & wysiwyg) in Gutenberg pages.
-* **One-Click Duplication** - Easily duplicate your original or default language content into other languages, saving time and reducing manual work.
-* **Style and Format Preservation** - The plugin maintains all styles, formats, and layouts from the original post, ensuring that your translated content maintains a consistent appearance.
-* **Multilingual Management** - Simplifies the process of managing a multilingual website by automating translation and reducing the need for repetitive actions.
-* **Custom Block Support** - While optimized for Gutenberg blocks, the plugin also works with several third-party block plugins, extending its versatility.
-* **Easy to Use** - Designed with a user-friendly interface, making it accessible even for those with limited technical knowledge.
+1. **Install** Polylang and Chrome AI Translation for Polylang addon.
+2. **Open** any page or post and click the **“+”** icon next to your target language.
+3. **Confirm** the popup to duplicate and translate your content automatically using **Chrome’s AI Translation API**.
+4. If you close the popup, click **“Translate Page”** anytime to start translation manually.
+5. All translations happen **locally in the browser** — fast, secure, and fully compatible with **Gutenberg**, **Classic Editor**, and **Elementor**.
+6. Once the translation is ready, click **“Update Content”** to save it instantly without reloading the page.
 
-#### Important Links & Information
+---
 
-* [Chrome Built-in AI APIs Documentation](https://developer.chrome.com/docs/ai/built-in-apis)
-* [Chrome Summarizer API Documentation](https://developer.chrome.com/docs/ai/summarizer-api)
-* [Chrome Prompt API Documentation for Extensions](https://developer.chrome.com/docs/extensions/ai/prompt-api)
+## 🏗️ How I Built It
 
+- **Integration with Polylang:**  
+  This addon builds on **Polylang’s** multilingual features and adds automatic translation using **Chrome’s AI**, so you can translate content with just one click.
+
+- **Editor Compatibility & UI:**  
+  It works smoothly with **Gutenberg**, **Classic Editor**, and **Elementor**, with a simple, modern popup that feels like part of WordPress itself.
+
+- **Error Handling System:**  
+  If something goes wrong, the addon shows a clear message to help you enable **Chrome’s Translation API** or install missing **language packs**, so you’re never stuck.
+
+---
+
+## 🧩 Challenges I Ran Into
+
+- **API Integration Errors:**  
+  Initially, it was tricky to enable the **Chrome Translation API** and manage missing language packs.  
+  This was fixed by adding clear error popups with helpful documentation links.
+
+- **HTML and Formatting Issues:**  
+  Some translations messed up the page layout. To solve this, a **React-based filter system** was added to keep the structure and formatting intact.
+
+- **Exploring Browser AI:**  
+  Working with **on-device AI** was a challenge at first, but it turned out to be a great learning experience — showing how local AI can make WordPress automation faster and smarter.
+
+---
+
+## 🏆 Accomplishments That I’m Proud Of
+
+I created a plugin that connects **Chrome AI Translation for Polylang** directly with **WordPress**, enabling instant, private, and automatic translations in Polylang.
+
+Seeing full pages translate in seconds — without external APIs or costs — was a major milestone.  
+This saves users time, money, and effort while keeping translations secure within their browser.
+
+---
+
+## 📚 What I Learned
+
+During this project, I learned how to:
+
+- Integrate **browser-based AI** into WordPress workflows.
+- Build **automation tools** that are both smart and simple.
+- Balance **performance and innovation** while keeping everything lightweight.
+
+I also refined my skills in **UX design**, **error management**, and **AI-powered plugin development**.
+
+---
+
+## 🔮 What’s Next for Chrome AI Translation for Polylang
+
+- **Glossary & Custom Rules:**  
+  Let users define words or phrases (like brand names) that shouldn’t be translated.
+
+- **Custom Block & Meta Field Translation:**  
+  Add support for Gutenberg blocks and custom meta fields for full translation coverage.
+
+- **Bulk Translation:**  
+  Enable translation of multiple posts or pages in one click — ideal for large sites.
+
+With these updates, the goal is to make **Chrome AI Translation for Polylang** a complete, fast, and intelligent multilingual automation solution for WordPress.
+
+---
+
+## 🛠️ Built With
+
+- **HTML** – Structure and layout
+- **CSS** – Clean, responsive design
+- **JavaScript** – Dynamic translation logic
+- **TypeScript** – Safer, maintainable front-end code
+- **PHP** – WordPress and Polylang integration
+
+Lightweight, efficient, and perfectly integrated into the WordPress ecosystem.
+
+---
