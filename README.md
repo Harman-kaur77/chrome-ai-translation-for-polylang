@@ -1,4 +1,4 @@
-# 🧠 Chrome AI Translation for Polylang
+# Chrome AI Translation for Polylang
 
 Creating multilingual WordPress sites with **Polylang** can take time since it doesn’t automatically translate content.  
 Most translation plugins offer automation, but they’re often **paid**, have **limited editor support**, or require **complex setup**.
