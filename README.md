@@ -8,15 +8,9 @@ That’s how **Chrome AI Translation for Polylang** was created — a **free add
 
 ## 🎮 Live Demo Access
 
-Experience **Chrome AI Translation for Polylang** in action:  
-🔗 [Go to Demo Admin Panel](https://autopoly-chromeai-translator.instawp.co/wp-admin)
+Experience **Chrome AI Translation for Polylang** in action:
 
-**Login Details:**
-
-- **Username:** demo
-- **Password:** demo@879
-
-  ![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/autopoly-chrome.gif)
+![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/autopoly-chrome.gif)
 
 ## Installation-
 
