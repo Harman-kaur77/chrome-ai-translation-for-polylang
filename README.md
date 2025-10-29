@@ -15,7 +15,7 @@ Experience **Chrome AI Translation for Polylang** in action:
 
 - **Username:** demo
 - **Password:** demo@879
-  ![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/loco-chrome-ai.gif)
+  ![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/autopoly-chrome.gif)
 
 ## Installation-
 
