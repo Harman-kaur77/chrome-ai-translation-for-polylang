@@ -18,7 +18,7 @@ Experience **Chrome AI Translation for Polylang** in action:
 
 ![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/loco-chrome-ai.gif)
 
-## Installatio-
+## Installation-
 
 1. Upload the files and folders to the `/wp-content/plugins/Chrome-AI-Translation-for-Polylang` directory
 2. Go to "Plugins" in your WP Admin
@@ -31,4 +31,4 @@ It is an experimental project and should not be used in production environments.
 
 ### Translation API
 
-## It heavily relies on the [Translation API](https://developer.chrome.com/docs/ai/translator-api) which is an experimental project by Google Chrome. The API is not stable and might change at any time.
+#### It heavily relies on the [Translation API](https://developer.chrome.com/docs/ai/translator-api) which is an experimental project by Google Chrome. The API is not stable and might change at any time.
