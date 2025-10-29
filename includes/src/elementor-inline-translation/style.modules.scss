@@ -1,0 +1,21 @@
+.catfpEtTranslatorWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .catfpEtTranslatorContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #515962;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: .3rem;
+
+        .catfpEtTranslatorIcon {
+            fill: #f0abfc;
+        }
+    }
+}
