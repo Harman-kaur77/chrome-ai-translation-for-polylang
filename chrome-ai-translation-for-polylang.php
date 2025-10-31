@@ -3,7 +3,7 @@
 Plugin Name: Chrome AI Translation For Polylang
 Version: 1.0.0
 Description: Chrome AI Translation For Polylang simplifies your translation process by automatically translating all pages/posts content from one language to another by using Chrome Translator API (https://developer.chrome.com/docs/ai/translator-api).
-License: GPLv2 or later
+License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: chrome-ai-translation-for-polylang
 Requires Plugins: polylang
