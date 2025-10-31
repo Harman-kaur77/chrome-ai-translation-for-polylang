@@ -6,7 +6,7 @@ Most translation plugins offer automation, but they’re often **paid**, have **
 When **Chrome** launched its built-in **AI Translator API**, I saw a way to simplify this process.  
 That’s how **Chrome AI Translation for Polylang** was created — a **free addon** that uses Chrome’s **local AI** to instantly translate WordPress pages.
 
-![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/autopoly-chrome.gif)
+![Chrome AI Translation for Polylang  Demo](https://autopoly-chromeai-translator.instawp.co/wp-content/uploads/2025/10/lv_0_20251031121646-ezgif.com-video-to-gif-converter-1.gif)
 
 ## Installation-
 
